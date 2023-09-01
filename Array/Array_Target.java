@@ -1,6 +1,7 @@
 package TT2.Array;
 
 import java.util.HashMap;
+import java.util.Stack;
 
 public class Array_Target {
         static void approach_2(int arr[], int target) {
@@ -19,7 +20,6 @@ public class Array_Target {
 
                 System.out.println(map.get(e) + "," + e);
                 break;
-
             }
 
         }
